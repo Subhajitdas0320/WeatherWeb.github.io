@@ -101,13 +101,13 @@ window.addEventListener("load", () => {
                     const {name}=data;
                     const{feels_like}=data.main;
                     const{id,main}=data.weather[0];
-
-
+                    
+                    
                     loc.textContent=name;
                     climate.textContent=main;
                     tempvalue.textContent=Math.round(feels_like-273);
-
-
+                    
+                    
                     if(id<300 &&id>200)
                     {
                         tempicon.src="./icons/thunderstorm.png"
