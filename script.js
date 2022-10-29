@@ -59,7 +59,7 @@ const getWeather=async(city)=>{
                     }
                     if(id==800)
                     {
-                        tempicon.src="./icons/sun(1).png"
+                        tempicon.src="./icons/clear.png"
                     }
 
     }
@@ -130,7 +130,7 @@ window.addEventListener("load", () => {
                     }
                     if(id==800)
                     {
-                        tempicon.src="./icons/sun(1).png"
+                        tempicon.src="./icons/clear.png"
                     }
 
 
