@@ -49,15 +49,15 @@ const getWeather=async(city)=>{
                     {
                         tempicon.src="./icons/rain.png"
                     }
-                    if(id<700 &&id>600)
+                    else if(id<700 &&id>600)
                     {
                         tempicon.src="./icons/snowflake.png"
                     }
-                    if(id<800 &&id>700)
+                    else if(id<800 &&id>700)
                     {
                         tempicon.src="./icons/sun.png"
                     }
-                    if(id==800)
+                    else if(id==800)
                     {
                         tempicon.src="./icons/clear.png"
                     }
@@ -120,15 +120,15 @@ window.addEventListener("load", () => {
                     {
                         tempicon.src="./icons/rain.png"
                     }
-                    if(id<700 &&id>600)
+                    else if(id<700 &&id>600)
                     {
                         tempicon.src="./icons/snowflake.png"
                     }
-                    if(id<800 &&id>700)
+                    else if(id<800 &&id>700)
                     {
                         tempicon.src="./icons/sun.png"
                     }
-                    if(id==800)
+                    else if(id==800)
                     {
                         tempicon.src="./icons/clear.png"
                     }
