@@ -41,19 +41,19 @@ const getWeather=async(city)=>{
                     {
                         tempicon.src="./icons/thunderstorm.png"
                     }
-                    else if(id<=400 &&id>=300)
+                    else if(id<400 &&id>300)
                     {
                         tempicon.src="./icons/cloud.png"
                     }
-                    else if(id<600 &&id>=500)
+                    else if(id<600 &&id>500)
                     {
                         tempicon.src="./icons/rain.png"
                     }
-                    else if(id<700 &&id>=600)
+                    else if(id<700 &&id>600)
                     {
                         tempicon.src="./icons/snowflake.png"
                     }
-                    else if(id<800 &&id>=700)
+                    else if(id<800 &&id>700)
                     {
                         tempicon.src="./icons/sun.png"
                     }
@@ -112,19 +112,19 @@ window.addEventListener("load", () => {
                     {
                         tempicon.src="./icons/thunderstorm.png"
                     }
-                    else if(id<=400 &&id>=300)
+                    else if(id<400 &&id>300)
                     {
                         tempicon.src="./icons/cloud.png"
                     }
-                    else if(id<600 &&id>=500)
+                    else if(id<600 &&id>500)
                     {
                         tempicon.src="./icons/rain.png"
                     }
-                    else if(id<700 &&id>=600)
+                    else if(id<700 &&id>600)
                     {
                         tempicon.src="./icons/snowflake.png"
                     }
-                    else if(id<800 &&id>=700)
+                    else if(id<800 &&id>700)
                     {
                         tempicon.src="./icons/sun.png"
                     }
