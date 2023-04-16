@@ -37,7 +37,7 @@ const getWeather=async(city)=>{
         loc.textContent=name;
         climate.textContent=main;
         tempvalue.textContent=Math.round(feels_like-273);
-        if(id<300 &&id>=200)
+        if(id<300 &&id>200)
                     {
                         tempicon.src="./icons/thunderstorm.png"
                     }
@@ -108,7 +108,7 @@ window.addEventListener("load", () => {
                     tempvalue.textContent=Math.round(feels_like-273);
                     
                     
-                    if(id<300 &&id>=200)
+                    if(id<300 &&id>200)
                     {
                         tempicon.src="./icons/thunderstorm.png"
                     }
